@@ -1,5 +1,5 @@
 # ✨ AI Storyteller 
-## A Streamlit app powered by HuggingFace LLM
+## -- A Streamlit App Powered by HuggingFace LLM
 
 Stuck with a severe case of writer's block? Have the setting you envisioned but paralyzed with too many options for continuing the story? Try [AI Storyteller](https://hollyyfc-aistoryteller.streamlit.app/)! Be it a poem, novel or creative essay, we've got your back to help you get over the hump. A little assistance can unleash a lot of creativity.
 
