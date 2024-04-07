@@ -1,10 +1,10 @@
 import streamlit as st
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
-# Initialize the model and tokenizer
-model_name = 'gpt2'
-tokenizer = GPT2Tokenizer.from_pretrained(model_name)
-model = GPT2LMHeadModel.from_pretrained(model_name)
+# Initialize the model and tokenizer with distilgpt2
+model_name = 'distilgpt2'
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(model_name)
 
 st.set_page_config(page_title="AI Story Completer", page_icon="📖", layout="wide")
 
